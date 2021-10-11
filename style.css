@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'ITC Avant Garde';
+    src: url(ITCAvantGarde.otf);
+}
+
+body {
+    background:linear-gradient(90deg,#0CD9E8,#00a8ff);
+}
+
+h1 {
+    letter-spacing: 33px;
+    text-transform: uppercase;
+}
+
+.wrapper {
+    text-align: center;
+    font-family: 'ITC Avant Garde';
+    color: #fff;
+}
+
+p {
+    font-size: 2em;
+}
+
+button{
+    background: radial-gradient(#00a8ff,#0CD9E8);
+    font-family: 'ITC Avant Garde';
+    letter-spacing: 7px;
+    color: #fff;
+    padding: 12px 35px;
+    border: solid 2px;
+    border-radius: 7px;
+    text-transform: uppercase;
+    transition: 0.8s;
+}
+
+button:hover{
+    color: #00a8ff;
+    background: #fff;
+    border: solid 2px #fff;
+    border-radius: 7px;
+}
